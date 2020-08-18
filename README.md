@@ -8,3 +8,5 @@
 > This script take (Multi)Fasta file as input and write the Sequence Header(s) in a new file (fasta_headers.txt)
 ### k-mer_constructor.py
 > This script take Fasta file as input and produce all the K-mers of length specified by the user
+### random_seq_generator.py
+> This script take sequence_type and sequence_length as input and produce random_nucleotide_sequence in FASTA format
