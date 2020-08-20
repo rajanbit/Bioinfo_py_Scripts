@@ -9,6 +9,6 @@
 ### k-mer_constructor.py
 > This script take Fasta file as input and produce all the K-mers of length specified by the user
 ### random_seq_generator.py
-> This script take sequence type and sequence length as input and produce random nucleotide sequence in FASTA format
+> This script take sequence-type and sequence-length as input and produce random-nucleotide-sequence in FASTA format
 ### extract_fasta_records.py
-> This script extracts Fasta_records from Multi-Fasta file whose ids are in Accession-Ids file
+> This script extracts Fasta-records from Multi-Fasta file whose Accession-No(s) are in Accession-Ids file
