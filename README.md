@@ -12,3 +12,5 @@
 > This script take sequence-type and sequence-length as input and produce random-nucleotide-sequence in FASTA format
 ### extract_fasta_records.py
 > This script extracts Fasta-records from Multi-Fasta file whose Accession-No(s) are in Accession-Ids file
+### fasta_record_finder.py
+> This script extract Fasta-record from Multi-Fasta file whose Accession-No is inputted by the user and write the record in a new file (NC_XXXXXX.fasta)
