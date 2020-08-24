@@ -1,5 +1,5 @@
-# Python
-## Python Scripts
+# Bioinfo_py_Scripts
+## Python Scripts for Bioinformatics
 ### gc_percent.py
 > This script take FASTA file as input and return the GC content
 ### extract_accession_no.py
