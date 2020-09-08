@@ -11,3 +11,5 @@ for line in DNA:
 x = int(k_mer_size)
 for i in range(len(seq) - x):
 	print(seq[i:i+int(k_mer_size)])
+
+# python k-mer_constructor.py <FASTA_File>
