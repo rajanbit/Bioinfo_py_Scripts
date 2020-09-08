@@ -2,6 +2,9 @@
 ## Python Scripts for Bioinformatics
 ### gc_percent.py
 > This script take FASTA file as input and return the GC content
+```
+$ python gc_percent.py <FASTA_File>
+```
 ### extract_accession_no.py
 > This script take MULTI-FASTA file as input and write all the Accession Number(s) in a new file (accession_no.txt)
 ### extract_fasta_headers.py
