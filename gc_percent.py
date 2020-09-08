@@ -13,3 +13,5 @@ no_c = seq.count("C")
 dna_len = no_a + no_t + no_g + no_c
 gc_percent = ((no_g + no_c)/dna_len)*100.0
 print("GC content: " "%.2f" % gc_percent+"%")
+
+# python gc_percent.py <FASTA_File>
