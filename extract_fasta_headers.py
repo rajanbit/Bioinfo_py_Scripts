@@ -6,3 +6,5 @@ for line in mlti_fasta:
 	if line[0] == ">":
 		head.write(line[1:])
 head.close()
+
+# python extract_fasta_headers.py <Multi_FASTA_File>
