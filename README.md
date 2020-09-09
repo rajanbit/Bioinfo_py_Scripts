@@ -6,16 +6,25 @@ This script take FASTA file as input and return the GC content
 $ python gc_percent.py <FASTA_File>
 ```
 ### extract_accession_no.py
-> This script take MULTI-FASTA file as input and write all the Accession Number(s) in a new file (accession_no.txt)
+This script take MULTI-FASTA file as input and write all the Accession Number(s) in a new file (accession_no.txt)
+```
+$ python extract_accession_no.py <Multi_FASTA_File>
+```
 ### extract_fasta_headers.py
-> This script take (Multi)Fasta file as input and write the Sequence Header(s) in a new file (fasta_headers.txt)
+This script take (Multi)Fasta file as input and write the Sequence Header(s) in a new file (fasta_headers.txt)
+```
+$ python extract_fasta_headers.py <Multi_FASTA_File>
+```
 ### k-mer_constructor.py
 This script take Fasta file as input and produce all the K-mers of length specified by the user
 ```
 $ python k-mer_constructor.py <FASTA_File>
 ```
 ### random_seq_generator.py
-> This script take sequence-type and sequence-length as input and produce random-nucleotide-sequence in FASTA format
+This script take sequence-type and sequence-length as input and produce random-nucleotide-sequence in FASTA format
+```
+$ python random_seq_generator.py
+```
 ### extract_fasta_records.py
 > This script extracts Fasta-records from Multi-Fasta file whose Accession-No(s) are in Accession-Ids file
 ### fasta_record_finder.py
