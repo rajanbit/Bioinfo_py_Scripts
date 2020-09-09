@@ -5,3 +5,5 @@ acc_no = open("accession_no.txt", "w+")
 for line in mlti_fasta:
 	if line[0] == ">":
 		acc_no.write(line[1:10] + "\n")
+
+# python extract_accession_no.py <Multi_FASTA_File>
