@@ -17,4 +17,4 @@ for i in range(0, len(nt_seq), 70):
 print("> "+nt_type+"_Sequence")
 print(fasta_seq)
 
-
+# python random_seq_generator.py
