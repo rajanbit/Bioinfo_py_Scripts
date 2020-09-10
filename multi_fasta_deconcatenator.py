@@ -50,3 +50,5 @@ def out():
 		f2 = parsing_data(acc_id, fasta_rec)
 		file_writer(f1, f2)
 out()
+
+# python multi_fasta_deconcatenator.py <Multi_FASTA_File>
