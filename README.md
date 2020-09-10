@@ -26,10 +26,22 @@ This script take sequence-type and sequence-length as input and produce random-n
 $ python random_seq_generator.py
 ```
 ### extract_fasta_records.py
-> This script extracts Fasta-records from Multi-Fasta file whose Accession-No(s) are in Accession-Ids file
+This script extracts Fasta-records from Multi-Fasta file whose Accession-No(s) are in Accession-Ids file
+```
+$ python extract_fasta_records.py <Multi_FASTA_File> <Accession_IDs_File>
+```
 ### fasta_record_finder.py
-> This script extract Fasta-record from Multi-Fasta file whose Accession-No is inputted by the user and write the record in a new file (NC_XXXXXX.fasta)
+This script extract Fasta-record from Multi-Fasta file whose Accession-No is inputted by the user and write the record in a new file (NC_XXXXXX.fasta)
+```
+$ python fasta_record_finder.py <Multi_FASTA_File>
+````
 ### fasta_concatenator.py
-> This script merge all the files with (.fasta) extension and create a new file (multi_fasta)
+This script merge all the files with (.fasta) extension and create a new file (multi_fasta)
+```
+$ python fasta_concatenator.py
+```
 ### multi_fasta_deconcatenator.py
-> This script split multi fasta file into individual fasta file(s)
+This script split multi fasta file into individual fasta file(s)
+```
+$ python multi_fasta_deconcatenator.py <Multi_FASTA_File>
+```
