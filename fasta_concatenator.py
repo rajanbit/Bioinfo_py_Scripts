@@ -20,3 +20,5 @@ def concatenate():
 		for lines in fasta_rec:
 			f_out.write(lines)
 concatenate()
+
+# python fasta_concatenator.py
