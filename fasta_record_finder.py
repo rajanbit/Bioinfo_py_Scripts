@@ -30,3 +30,5 @@ if head_index != None:
 else:
 	print("Error: FASTA record not found")
 	os.remove(f_name)
+
+# python fasta_record_finder.py <Multi_FASTA_File>
