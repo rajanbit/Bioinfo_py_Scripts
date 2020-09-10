@@ -26,3 +26,5 @@ for line in mlti_fasta:
 		header = line
 if i in header:
 	out_fasta.write(header + seq)
+
+# python extract_fasta_records.py <Multi_FASTA_File> <Accession_IDs_File>
