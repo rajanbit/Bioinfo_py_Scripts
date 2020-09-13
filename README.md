@@ -45,3 +45,8 @@ This script split multi fasta file into individual fasta file(s)
 ```
 $ python multi_fasta_deconcatenator.py <Multi_FASTA_File>
 ```
+### file_comparison.py
+This script compare two files and return the elements present in one file but not in other
+```
+$ python file_comparison.py -f1 <File_1> -f2 <File_2>
+```
