@@ -50,3 +50,8 @@ This script compare two files and return the elements present in one file but no
 ```
 $ python file_comparison.py -f1 <File_1> -f2 <File_2>
 ```
+### ftp_download.py
+This script download all the files whose ftp addresses are listed in ftpfilepaths file
+```
+$ python ftp_download.py <ftpfilepaths>
+```
