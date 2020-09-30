@@ -83,3 +83,4 @@ else:
 		print("The DNA is"+text.red+" [A"+text.default+text.blue+"T] "+text.default+"rich"+"\n")
 ...
 
+# python dna_fasta_visualization.py -n <FASTA_File>
