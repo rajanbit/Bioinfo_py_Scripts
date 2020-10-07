@@ -57,3 +57,6 @@ $ python ftp_download.py <ftpfilepaths>
 ```
 ### dna_fasta_visualization.py
 This script take DNA fasta file as input and return Accession number, Organism/Origin, Base count, Sequence length, GC content, AT content and whether the sequence is GC rich or AT rich
+```
+$ python dna_fasta_visualization.py -n <FASTA_File>
+```
