@@ -60,3 +60,8 @@ This script take DNA fasta file as input and return Accession number, Organism/O
 ```
 $ python dna_fasta_visualization.py -n <FASTA_File>
 ```
+### base_composition.py
+This script take DNA fasta file or multi fasta file as input and create base_composition.tsv file
+```
+$ python base_composition.py <Fasta/Multi_fasta File>
+```
