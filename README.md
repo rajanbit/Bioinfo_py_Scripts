@@ -65,3 +65,8 @@ This script take DNA fasta file or multi fasta file as input and create base_com
 ```
 $ python base_composition.py <Fasta/Multi_fasta File>
 ```
+### translate.py
+This script take DNA sequence fasta file and produce amino acid sequences in three different frames for each strand
+```
+$ python translate.py <FASTA_File>
+```
