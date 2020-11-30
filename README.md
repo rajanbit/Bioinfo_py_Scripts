@@ -70,3 +70,8 @@ This script take DNA sequence fasta file and produce amino acid sequences in thr
 ```
 $ python translate.py <FASTA_File>
 ```
+### consensus.py
+This script take multi fasta file as input and generate consensus_matrix
+```
+$ python consensus.py <multi_fasta_file>
+```
