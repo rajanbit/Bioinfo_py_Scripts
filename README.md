@@ -75,3 +75,25 @@ This script take multi fasta file as input and generate consensus_matrix
 ```
 $ python consensus.py <multi_fasta_file>
 ```
+### dna_helix_visualizer.py
+This script take DNA sequence as input and print the DNA_helix
+
+	   CG
+	  T--A
+	 G----C
+	A------T
+	A------T
+	 C----G
+	  T--A
+	   GC
+	   GC
+	  T--A
+	 T----A
+	A------T
+	C------G
+	 C----G
+	  T--A
+	   GC
+```
+$ python dna_helix_visualizer.py
+```
