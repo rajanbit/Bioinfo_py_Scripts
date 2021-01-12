@@ -97,3 +97,8 @@ This script take DNA sequence as input and print the DNA_helix
 ```
 $ python dna_helix_visualizer.py
 ```
+### prototype_aligner1.py
+This script takes fasta file with two sequences of same length as input and perform ungapped global alignment
+```
+$ python prototype_aligner1.py <file.fasta>
+```
