@@ -78,22 +78,8 @@ $ python consensus.py <multi_fasta_file>
 ### dna_helix_visualizer.py
 This script take DNA sequence as input and print the DNA_helix
 
-	   CG
-	  T--A
-	 G----C
-	A------T
-	A------T
-	 C----G
-	  T--A
-	   GC
-	   GC
-	  T--A
-	 T----A
-	A------T
-	C------G
-	 C----G
-	  T--A
-	   GC
+![dna_helix](https://github.com/rajanbit/Bioinfo_py_Scripts/blob/master/supplementary_data/images/dna_helix.png)
+
 ```
 $ python dna_helix_visualizer.py
 ```
@@ -104,7 +90,9 @@ $ python prototype_aligner1.py <file.fasta>
 ```
 ### nt_sequence_logo.py
 This script takes multi fasta file with DNA sequences of same length as input and create nucleotides sequence logo
+
 ![nt_sequence_logo](https://github.com/rajanbit/Bioinfo_py_Scripts/blob/master/supplementary_data/images/nt_seq_logo.png)
+
 ```
 $ python nt_sequence_logo.py <multi.fasta>
 ```
