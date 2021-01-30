@@ -96,3 +96,36 @@ This script takes multi fasta file with DNA sequences of same length as input an
 ```
 $ python nt_sequence_logo.py <multi.fasta>
 ```
+### seq_concatenator.py
+This script takes multi fasta file with gene sequences and concatenate them according to the accession id (as shown below)
+
+Multi-Fasta file [ INPUT ]
+```
+>ECO_1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+>ECO_2
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+>ECO_3
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+>SAL_1
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+>SAL_2
+GCGCGCGGGCGCGCGCGCGCGCGCGCGCGCGC
+>SAL_3
+TATATTATATATTATATATTTATATAATAATA
+```
+
+concatenated_seq.fasta file [ OUTPUT ]
+```
+>ECO
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+>SAL
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GCGCGCGGGCGCGCGCGCGCGCGCGCGCGCGC
+TATATTATATATTATATATTTATATAATAATA
+```
+```
+$ python seq_concatenator.py <Multi-Fasta>
+```
