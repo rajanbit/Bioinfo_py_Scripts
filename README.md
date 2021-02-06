@@ -129,3 +129,8 @@ TATATTATATATTATATATTTATATAATAATA
 ```
 $ python seq_concatenator.py <Multi-Fasta>
 ```
+### clustal_to_fasta.py
+Convert Multiple Sequence Alignment (MSA) file in Clustal Omega format to FASTA format
+```
+$ python clustal_to_fasta.py <file.clustal_num> <file.fasta>
+```
