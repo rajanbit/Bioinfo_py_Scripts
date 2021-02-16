@@ -134,3 +134,8 @@ Convert Multiple Sequence Alignment (MSA) file in Clustal Omega format to FASTA 
 ```
 $ python clustal_to_fasta.py <file.clustal_num> <file.fasta>
 ```
+### clustal_to_tsv.py
+Convert Multiple Sequence Alignment (MSA) file in Clustal Omega format to .tsv format
+```
+$ python clustal_to_tsv.py <file.clustal_num>
+```
