@@ -139,3 +139,8 @@ Convert Multiple Sequence Alignment (MSA) file in Clustal Omega format to .tsv f
 ```
 $ python clustal_to_tsv.py <file.clustal_num>
 ```
+### prot_mol_weight_calculator.py
+Program to calculate protein(s) molecular weight from the amino acid sequence(s) in Fasta/Multi_Fasta file
+```
+$ python prot_mol_weight_calculator.py prot.fasta
+```
