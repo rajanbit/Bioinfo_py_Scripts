@@ -88,14 +88,6 @@ This script takes fasta file with two sequences of same length as input and perf
 ```
 $ python prototype_aligner1.py <file.fasta>
 ```
-### nt_sequence_logo.py
-This script takes multi fasta file with DNA sequences of same length as input and create nucleotides sequence logo
-
-![nt_sequence_logo](https://github.com/rajanbit/Bioinfo_py_Scripts/blob/master/supplementary_data/images/nt_seq_logo.png)
-
-```
-$ python nt_sequence_logo.py <multi.fasta>
-```
 ### seq_concatenator.py
 This script takes multi fasta file with gene sequences and concatenate them according to the accession id (as shown below)
 
