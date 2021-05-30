@@ -136,3 +136,8 @@ Program to calculate protein(s) molecular weight from the amino acid sequence(s)
 ```
 $ python prot_mol_weight_calculator.py prot.fasta
 ```
+### extract_seq.py
+Program to extract nucleotide or protein sequence of particular index (e.g. 200...300) from a Fasta file
+```
+$ python extract_seq.py <file.fasta>
+```
