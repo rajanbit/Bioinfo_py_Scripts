@@ -141,3 +141,8 @@ Program to extract nucleotide or protein sequence of particular index (e.g. 200.
 ```
 $ python extract_seq.py <file.fasta>
 ```
+### PSSM.py
+Create PSSM (Position-Specific Scoring Matrix) from multi fasta DNA sequences
+```
+$ python PSSM.py <multi.fasta>
+```
