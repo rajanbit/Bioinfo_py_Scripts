@@ -146,3 +146,8 @@ Create PSSM (Position-Specific Scoring Matrix) from multi fasta DNA sequences
 ```
 $ python PSSM.py <multi.fasta>
 ```
+### compare_bed.py
+Compare two bed files for sequence overlaps
+```
+$ python compare_bed.py file1.bed file2.bed
+```
