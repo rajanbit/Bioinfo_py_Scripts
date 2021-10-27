@@ -151,3 +151,8 @@ Compare two bed files for sequence overlaps
 ```
 $ python compare_bed.py file1.bed file2.bed
 ```
+### gdc_download.py
+Download all the files whose IDs are listed in gdc_manifest file (downloaded from TCGA GDC portal)
+```
+$ python gdc_download.py <gdc_manifest.txt>
+```
