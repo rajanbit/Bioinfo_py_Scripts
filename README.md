@@ -156,3 +156,5 @@ Download all the files whose IDs are listed in gdc_manifest file (downloaded fro
 ```
 $ python gdc_download.py <gdc_manifest.txt>
 ```
+### temp_to_cod.py
+Input template sequence and convert it to coding sequence
