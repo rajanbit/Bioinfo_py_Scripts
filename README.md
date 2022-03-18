@@ -158,3 +158,11 @@ $ python gdc_download.py <gdc_manifest.txt>
 ```
 ### temp_to_cod.py
 Input template sequence and convert it to coding sequence
+```
+$ python temp_to_cod.py
+```
+### alignment2consensus.py
+Generate consensus sequence from Multiple Sequence Alignment (MSA) file
+```
+$ python alignment2consensus.py <seq.aln>
+```
