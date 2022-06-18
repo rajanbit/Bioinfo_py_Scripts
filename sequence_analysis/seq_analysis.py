@@ -1,6 +1,7 @@
 from Bio.SeqUtils import GC
 import matplotlib.pyplot as plt
 from matplotlib.cm import get_cmap
+from Bio.Seq import Seq
 
 # Function to plot nucleotide composition
 def nucl_comp(seq):
@@ -35,4 +36,21 @@ def codon_comp(seq):
 	plt.ylabel("Percentage (%)")
 	plt.title("Codons Composition Plot")
 	plt.savefig('codon_composition.png',bbox_inches ="tight", pad_inches = 0.5, dpi = 500)
+	plt.close()
+
+# Function to plot amino acid composition
+def aa_comp(seq):
+	a_acid_seq = Seq(seq).translate()
+	a_acid_seq = str(a_acid_seq).replace("*", "")
+	a_acids = [ aa for aa in a_acid_seq]
+	a_acids_dict = dict.fromkeys(list(set(a_acids)), 0)
+	for aa in a_acids_dict:
+		a_acids_dict[aa] = (a_acids.count(aa)/len(a_acids))*100
+	plt.figure(figsize=(10,4))
+	plt.bar(list(a_acids_dict.keys()), list(a_acids_dict.values()), color=get_cmap("tab20").colors)
+	plt.xticks(fontsize=8, rotation=90)
+	plt.xlabel("Amino Acids")
+	plt.ylabel("Percentage (%)")
+	plt.title("Amino Acid Composition Plot")
+	plt.savefig('amino_acid_composition.png',bbox_inches ="tight", pad_inches = 0.5, dpi = 500)
 	plt.close()
