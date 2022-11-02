@@ -1,7 +1,10 @@
+# Importing modules
 from Bio.SeqUtils import GC
 import matplotlib.pyplot as plt
 from matplotlib.cm import get_cmap
 from Bio.Seq import Seq
+from Bio import SeqIO
+import sys
 
 # Function to plot nucleotide composition
 def nucl_comp(seq):
@@ -20,7 +23,14 @@ def nucl_comp(seq):
 # Function to return GC composition
 def gc_comp(seq):
 	gc_perc = GC(seq)
-	return("GC Percent:", round(gc_perc, 2))
+	gc_dict = {"GC":gc_perc,"AT":100-gc_perc}
+	plt.bar(list(gc_dict.keys()), list(gc_dict.values()), color =['blue', 'red'])
+	plt.xticks(fontsize=8, rotation=90)
+	plt.xlabel("Compositions")
+	plt.ylabel("Percentage (%)")
+	plt.title("GC & AT Composition Plot")
+	plt.savefig('gc_at_composition.png',bbox_inches ="tight", pad_inches = 0.5, dpi = 500)
+	plt.close()
 
 # Function to plot codon composition
 def codon_comp(seq):
@@ -54,3 +64,17 @@ def aa_comp(seq):
 	plt.title("Amino Acid Composition Plot")
 	plt.savefig('amino_acid_composition.png',bbox_inches ="tight", pad_inches = 0.5, dpi = 500)
 	plt.close()
+
+# Reading FASTA file and running all 
+fasta_rec = open(sys.argv[1])
+seq = ""
+data = SeqIO.parse(fasta_rec, "fasta")
+for record in data:
+	seq = record.id, str(record.seq)
+	seq = str(seq[1])
+nucl_comp(seq)
+gc_comp(seq)
+codon_comp(seq)
+aa_comp(seq)
+
+# Usage: $ python orf_analyzer.py <seq.fasta>
